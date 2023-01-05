@@ -17,23 +17,33 @@
 <body>
   <header
     class="bg-[url('./images/mobile/image-hero.jpg')] flex flex-col min-h-screen bg-cover bg-center relative md:bg-[url('./images/desktop/image-hero.jpg')]">
-    <nav class="container">
-      <div class="flex justify-between items-center py-4 lg:py-14">
+    <div class="container">
+      <div class="flex justify-between items-center py-4 relative z-20 lg:py-14">
         <img class="w-32 h-full lg:w-52" src="dist/images/icons/logo.svg" alt="">
-        <div class="hidden lg:flex space-x-10 text-white font-medium">
+        <nav class="hidden lg:flex space-x-10 text-white font-medium">
           <a href="#" class="relative font-alata hover-link">About</a>
           <a href="#" class="relative font-alata hover-link">Careers</a>
           <a href="#" class="relative font-alata hover-link">Events</a>
           <a href="#" class="relative font-alata hover-link">Products</a>
           <a href="#" class="relative font-alata hover-link">Support</a>
-        </div>
-        <div class="flex flex-col justify-between w-6 h-4 lg:hidden">
-          <span class="w-full bg-white h-[2px]"></span>
-          <span class="w-full bg-white h-[2px]"></span>
-          <span class="w-full bg-white h-[2px]"></span>
+        </nav>
+        <div class="hamburger-menu lg:hidden">
+          <div class="hamburger-top"></div>
+          <div class="hamburger-middle"></div>
+          <div class="hamburger-bottom"></div>
         </div>
       </div>
-    </nav>
+    </div>
+
+    <div id="menu-mobile" class="fixed inset-0 z-10 bg-black text-white duration-300 transition -translate-x-full">
+      <nav class="container flex flex-col justify-center w-full h-full space-y-6">
+        <a href="#" class="uppercase text-3xl font-josefin font-normal">About</a>
+        <a href="#" class="uppercase text-3xl font-josefin font-normal">Careers</a>
+        <a href="#" class="uppercase text-3xl font-josefin font-normal">Events</a>
+        <a href="#" class="uppercase text-3xl font-josefin font-normal">Products</a>
+        <a href="#" class="uppercase text-3xl font-josefin font-normal">Support</a>
+      </nav>
+    </div>
 
     <div class="container relative flex-1">
       <div class="p-6 border-2 border-white absolute top-1/2 -translate-y-1/2 lg:p-10 lg:-mt-8 lg:pr-28">
@@ -181,6 +191,8 @@
 
     </div>
   </footer>
+
+  <script src="src/scripts/main.js"></script>
 </body>
 
 </html>
