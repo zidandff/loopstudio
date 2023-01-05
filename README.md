@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://zidandff.github.io/loopstudio)
+- Live Site URL: [https://zidandff.github.io/loopstudio](https://zidandff.github.io/loopstudio)
 
 ## My process
 
@@ -41,5 +41,5 @@ Users should be able to:
 
 ## Author
 
-- Website - Zidan Dev(https://https://zidandff.github.io)
-- Frontend Mentor - zidandff(https://www.frontendmentor.io/profile/zidandff)
+- Website - [Zidan Dev](https://https://zidandff.github.io)
+- Frontend Mentor - [zidandff](https://www.frontendmentor.io/profile/zidandff)
