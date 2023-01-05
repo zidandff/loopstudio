@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot of entire page](./dist/images/screenshoot.png)
+![screenshot of header website](./dist/images/screenshoot.jpg)
 
 ### Links
 
