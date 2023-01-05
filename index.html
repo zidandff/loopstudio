@@ -21,11 +21,11 @@
       <div class="flex justify-between items-center py-4 lg:py-14">
         <img class="w-32 h-full lg:w-52" src="dist/images/icons/logo.svg" alt="">
         <div class="hidden lg:flex space-x-10 text-white font-medium">
-          <a href="#">About</a>
-          <a href="#">Careers</a>
-          <a href="#">Events</a>
-          <a href="#">Products</a>
-          <a href="#">Support</a>
+          <a href="#" class="relative font-alata hover-link">About</a>
+          <a href="#" class="relative font-alata hover-link">Careers</a>
+          <a href="#" class="relative font-alata hover-link">Events</a>
+          <a href="#" class="relative font-alata hover-link">Products</a>
+          <a href="#" class="relative font-alata hover-link">Support</a>
         </div>
         <div class="flex flex-col justify-between w-6 h-4 lg:hidden">
           <span class="w-full bg-white h-[2px]"></span>
@@ -64,81 +64,79 @@
     <section id="products" class="container my-20">
       <div class="flex items-center justify-between mb-9">
         <h1 class="text-4xl text-center uppercase font-josefin lg:text-5xl">Our creations</h1>
-        <button
-          class="hidden uppercase font-alata py-3 px-8 border font-medium tracking-[6px] border-black lg:block">See
+        <button class="hidden btn-primary lg:block">See
           All</button>
       </div>
 
       <div class="grid grid-cols-1 gap-5 lg:grid-cols-4">
 
         <div
-          class="relative bg-[url('./images/mobile/image-deep-earth.jpg')] bg-cover bg-center aspect-[2.73/1] overlay-image lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-deep-earth.jpg')]">
+          class="relative overlay-image group/image bg-[url('./images/mobile/image-deep-earth.jpg')] bg-cover bg-center aspect-[2.73/1] lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-deep-earth.jpg')]">
 
           <h2
-            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin lg:text-4xl lg:bottom-10 lg:left-10">
+            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin group-hover/image:text-black lg:text-4xl lg:bottom-10 lg:left-10">
             Deep <br> Earth</h2>
         </div>
 
         <div
-          class="relative bg-[url('./images/mobile/image-night-arcade.jpg')] bg-cover bg-center aspect-[2.73/1] overlay-image lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-night-arcade.jpg')]">
+          class="relative overlay-image group/image bg-[url('./images/mobile/image-night-arcade.jpg')] bg-cover bg-center aspect-[2.73/1]  lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-night-arcade.jpg')]">
 
           <h2
-            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin lg:text-4xl lg:bottom-10 lg:left-10">
+            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin group-hover/image:text-black lg:text-4xl lg:bottom-10 lg:left-10">
             Night <br> Arcade</h2>
         </div>
 
         <div
-          class="relative bg-[url('./images/mobile/image-soccer-team.jpg')] bg-cover bg-center aspect-[2.73/1] overlay-image lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-soccer-team.jpg')]">
+          class="relative overlay-image group/image bg-[url('./images/mobile/image-soccer-team.jpg')] bg-cover bg-center aspect-[2.73/1]  lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-soccer-team.jpg')]">
 
           <h2
-            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin lg:text-4xl lg:bottom-10 lg:left-10">
+            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin group-hover/image:text-black lg:text-4xl lg:bottom-10 lg:left-10">
             Soccer <br> Team VR</h2>
         </div>
 
         <div
-          class="relative bg-[url('./images/mobile/image-grid.jpg')] bg-cover bg-center aspect-[2.73/1] overlay-image lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-grid.jpg')]">
+          class="relative overlay-image group/image bg-[url('./images/mobile/image-grid.jpg')] bg-cover bg-center aspect-[2.73/1]  lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-grid.jpg')]">
 
           <h2
-            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin lg:text-4xl lg:bottom-10 lg:left-10">
+            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin group-hover/image:text-black lg:text-4xl lg:bottom-10 lg:left-10">
             The <br> Grid</h2>
         </div>
 
         <div
-          class="relative bg-[url('./images/mobile/image-from-above.jpg')] bg-cover bg-center aspect-[2.73/1] overlay-image lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-from-above.jpg')]">
+          class="relative overlay-image group/image bg-[url('./images/mobile/image-from-above.jpg')] bg-cover bg-center aspect-[2.73/1]  lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-from-above.jpg')]">
 
           <h2
-            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin lg:text-4xl lg:bottom-10 lg:left-10">
+            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin group-hover/image:text-black lg:text-4xl lg:bottom-10 lg:left-10">
             From up <br> above VR</h2>
         </div>
 
         <div
-          class="relative bg-[url('./images/mobile/image-pocket-borealis.jpg')] bg-cover bg-center aspect-[2.73/1] overlay-image lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-pocket-borealis.jpg')]">
+          class="relative overlay-image group/image bg-[url('./images/mobile/image-pocket-borealis.jpg')] bg-cover bg-center aspect-[2.73/1]  lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-pocket-borealis.jpg')]">
 
           <h2
-            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin lg:text-4xl lg:bottom-10 lg:left-10">
+            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin group-hover/image:text-black lg:text-4xl lg:bottom-10 lg:left-10">
             Pocket <br> Borealis</h2>
         </div>
 
         <div
-          class="relative bg-[url('./images/mobile/image-curiosity.jpg')] bg-cover bg-center aspect-[2.73/1] overlay-image lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-curiosity.jpg')]">
+          class="relative overlay-image group/image bg-[url('./images/mobile/image-curiosity.jpg')] bg-cover bg-center aspect-[2.73/1]  lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-curiosity.jpg')]">
 
           <h2
-            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin lg:text-4xl lg:bottom-10 lg:left-10">
+            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin group-hover/image:text-black lg:text-4xl lg:bottom-10 lg:left-10">
             The <br> Curiosity</h2>
         </div>
 
         <div
-          class="relative bg-[url('./images/mobile/image-fisheye.jpg')] bg-cover bg-center aspect-[2.73/1] overlay-image lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-fisheye.jpg')]">
+          class="relative overlay-image group/image bg-[url('./images/mobile/image-fisheye.jpg')] bg-cover bg-center aspect-[2.73/1]  lg:aspect-[9/16] lg:bg-[url('./images/desktop/image-fisheye.jpg')]">
 
           <h2
-            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin lg:text-4xl lg:bottom-10 lg:left-10">
+            class="absolute bottom-6 left-6 uppercase leading-none text-2xl text-white font-josefin group-hover/image:text-black lg:text-4xl lg:bottom-10 lg:left-10">
             Make it <br> Fisheye</h2>
         </div>
 
       </div>
 
-      <button
-        class="uppercase font-alata py-3 px-8 mt-6 block mx-auto border font-medium tracking-[6px] border-black lg:hidden">See
+      <button class="btn-primary lg:hidden">See
         All</button>
     </section>
   </main>
@@ -148,11 +146,11 @@
       <div class="w-full lg:w-1/2">
         <img src="dist/images/icons/logo.svg" class="mx-auto lg:mx-0" alt="">
         <nav class="flex flex-col space-y-5 mt-8 text-center lg:text-left lg:flex-row lg:space-y-0 lg:space-x-10">
-          <a href="#" class="text-gray-100 font-alata">About</a>
-          <a href="#" class="text-gray-100 font-alata">Careers</a>
-          <a href="#" class="text-gray-100 font-alata">Events</a>
-          <a href="#" class="text-gray-100 font-alata">Products</a>
-          <a href="#" class="text-gray-100 font-alata">Support</a>
+          <a href="#" class="text-gray-100 font-alata relative hover-link">About</a>
+          <a href="#" class="text-gray-100 font-alata relative hover-link">Careers</a>
+          <a href="#" class="text-gray-100 font-alata relative hover-link">Events</a>
+          <a href="#" class="text-gray-100 font-alata relative hover-link">Products</a>
+          <a href="#" class="text-gray-100 font-alata relative hover-link">Support</a>
         </nav>
       </div>
 
