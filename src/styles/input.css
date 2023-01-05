@@ -7,7 +7,7 @@
     @apply after:block after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:absolute after:w-0 after:h-[2px] after:bg-white after:transition-all hover:after:w-8
   }
   .overlay-image {
-    @apply before:transition-all before:duration-700 before:block before:absolute before:bg-gradient-to-r before:from-black before:opacity-75 before:inset-0 hover:before:from-white hover:before:to-white lg:before:bg-gradient-to-t
+    @apply before:block before:absolute before:bg-gradient-to-r before:from-black before:opacity-75 before:inset-0 hover:before:from-white hover:before:to-white lg:before:bg-gradient-to-t
   }
   .btn-primary {
     @apply uppercase font-alata py-3 px-8 border font-medium tracking-[6px] border-black transition hover:bg-black hover:text-white

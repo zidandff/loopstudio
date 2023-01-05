@@ -584,11 +584,8 @@ video {
   --tw-gradient-from: #000;
   --tw-gradient-to: rgb(0 0 0 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-  opacity: 0.75;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   content: var(--tw-content);
-  transition-duration: 700ms;
+  opacity: 0.75;
 }
 
 .overlay-image:hover::before {
@@ -688,6 +685,18 @@ video {
 
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -910,8 +919,16 @@ video {
   line-height: 1.25rem;
 }
 
+.text-\[15px\] {
+  font-size: 15px;
+}
+
 .font-medium {
   font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .uppercase {
@@ -940,6 +957,10 @@ video {
 .text-dark-gray {
   --tw-text-opacity: 1;
   color: hsl(0 0% 55% / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .group\/image:hover .group-hover\/image\:text-black {
